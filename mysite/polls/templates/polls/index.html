@@ -1,3 +1,6 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'polls/style.css' %}">
+
 {% if latest_question_list %}
     <h3>List of your polls</h3>
     <ul>
